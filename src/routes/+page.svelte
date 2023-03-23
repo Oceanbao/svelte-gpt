@@ -68,9 +68,11 @@
 	};
 </script>
 
-<div class="flex flex-col pt-4 w-3/4 px-8 items-center gap-2">
+<div
+	class="flex flex-col pt-4 md:pt-8 w-full h-screen md:h-full md:w-2/3 px-2 md:px-8 py-2 md:py-0 items-center gap-2 md:gap-4"
+>
 	<div>
-		<h1 class="text-2xl font-bold w-full text-center">Chatty</h1>
+		<h1 class="text-2xl font-bold w-full text-center">Parrot</h1>
 		<p class="text-sm italic">Powered by gpt-3.5-turbo</p>
 	</div>
 	<button

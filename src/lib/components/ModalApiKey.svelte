@@ -73,7 +73,7 @@
 			name="open-ai-key"
 			type="text"
 			placeholder="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-			class={`text-gray-100 block w-full text-sm mt-1 pl-3 pr-10 py-2 rounded border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 flex-1`}
+			class={`text-gray-600 block w-full text-sm mt-1 pl-3 pr-10 py-2 rounded border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 flex-1`}
 		/>
 		{#if errorMessage}
 			<p class="mt-2 text-sm text-red-600">{errorMessage}</p>
